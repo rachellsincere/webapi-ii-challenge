@@ -1,8 +1,5 @@
-const express = require('express');
+const server = require('./api/server.js');
 
-//const db = require('../../data/db.js');
-
-const server = express();
 
 //Last step: server listening
 server.listen(4000, () => {
